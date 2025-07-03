@@ -145,6 +145,14 @@ app_license = "mit"
 # 	}
 # }
 
+doc_events = {
+    "Expense Claim": {
+        "on_submit": "carbon_footprint.api.carbon.handle_expense_claim"
+    }
+}
+
+
+
 # Scheduled Tasks
 # ---------------
 
